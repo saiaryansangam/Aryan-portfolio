@@ -24,16 +24,7 @@ const projects = [
     live: '#', 
     code: '#',
     image: 'https://images.unsplash.com/photo-1551650975-87deedd944c3?w=500&h=300&fit=crop&crop=center'
-  }, 
-  { 
-    title: 'I-QMS', 
-    description: 'Internal quality management system', 
-    tech: ['HTML', 'CSS', 'JS','react','supabase','Lovable AI'], 
-    live: '#', 
-    code: '#',
-    image: 'https://images.unsplash.com/photo-1551650975-87deedd944c3?w=500&h=300&fit=crop&crop=center'
   },
-  
 ]
 
 function Projects() {

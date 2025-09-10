@@ -4,7 +4,6 @@ import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Home from './sections/Home'
 import About from './sections/About'
-import Experience from './sections/Experience'
 import Projects from './sections/Projects'
 import Skills from './sections/Skills'
 import AITools from './sections/AITools'
@@ -46,7 +45,7 @@ function App() {
   const [activeSection, setActiveSection] = useState('home')
 
   useEffect(() => {
-    const sectionIds = ['home', 'about', 'experience', 'projects', 'skills', 'ai-tools', 'blog', 'contact']
+    const sectionIds = ['home', 'about', 'projects', 'skills', 'ai-tools', 'blog', 'contact']
     const observers = []
 
     sectionIds.forEach((id) => {
@@ -74,7 +73,6 @@ function App() {
       <main className="flex-1">
         <section id="home" className="section container"><Home /></section>
         <section id="about" className="section container"><About /></section>
-        <section id="experience" className="section container"><Experience /></section>
         <section id="projects" className="section container"><Projects /></section>
         <section id="skills" className="section container"><Skills /></section>
         <section id="ai-tools" className="section container"><AITools /></section>

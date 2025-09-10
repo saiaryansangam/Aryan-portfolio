@@ -6,7 +6,7 @@ const blogPosts = [
     excerpt: 'How I leverage AI tools like Cursor and ChatGPT to accelerate frontend development while maintaining code quality.',
     date: 'Dec 15, 2024',
     readTime: '5 min read',
-    category: 'Development',
+    category: 'Development feild',
     image: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=500&h=300&fit=crop&crop=center',
     slug: 'ai-assisted-development'
   },
@@ -113,7 +113,7 @@ function Blog() {
       >
         <motion.a
           whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.95 }}
+          whileTap={{ scale: 0.95 }}  
           href="/blog"
           className="inline-flex items-center px-6 py-3 rounded-lg bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-medium shadow-lg hover:from-cyan-600 hover:to-blue-700 transition-all duration-200"
         >
